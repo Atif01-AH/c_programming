@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main (){
+    //declartation a integer variable
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    int f;
+    //taking input in variable a
+    printf("enter first value: ");
+    scanf("%d",&a);
+    printf("enter second value");
+    scanf("%d",&b);
+    c=a-b;
+    d=a/b;
+    e=a*b;
+    f=a+b;
+    //printing value of a
+    printf("subtract=");
+    printf("%d",c);
+    printf("divide=");
+    printf("%d",d);
+    printf("product=");
+    printf("%d",e);
+    printf("sum=");
+    printf("%d",f);
+}
