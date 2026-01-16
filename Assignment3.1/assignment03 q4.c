@@ -8,21 +8,17 @@ int main(){
   printf("Enter the number c: ");
   scanf("%d",&c);
 
-  if(a>b){
+  if(a>b && a>c){
     printf("a is largest number ");
   }
-  if(a==b==c){
-    printf("both are equal");
+  if(b>c && b>a){
+    printf("b is largest");
   }
-  if(b>c){
-    printf("c is small number");
+  if(c>a && c>b){
+    printf("c is largest");
   }
   else{
     printf("invalid");
   }
-
-
-
-
-
+  return 0;
 }
